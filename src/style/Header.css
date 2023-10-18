@@ -1,0 +1,41 @@
+/* * {
+  border: red 1px solid;
+} */
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+.header {
+  overflow: hidden;
+  background-color: #c2ffec;
+  padding: 10px 20px 10px;
+}
+.logo {
+  float: left;
+  text-decoration: none;
+  padding: 12px;
+  width: 5%;
+}
+.logo :hover {
+  opacity: .8;
+}
+.header-center {
+  margin-top: 35px;
+  display: inline-block;
+}
+.header-right {
+  margin-top: 35px;
+  float: right;
+}
+.header-center a,
+.header-right a {
+  line-height: 15px;
+  border-radius: 4px;
+  padding: 9px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.header-center a:hover,
+.header-right a:hover {
+  color: #65dbfb;
+}
